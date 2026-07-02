@@ -1,6 +1,29 @@
 # Marius Cretu — Portfolio
 
-A single-page portfolio site for Marius Cretu showcasing skills, featured projects, services, and contact info. Built with vanilla HTML, CSS, and a small JavaScript helper for navigation interactions.
+A responsive single-page portfolio website for Marius Cretu. The site presents professional background, technical skills, featured projects, services, contact details, and a downloadable CV in a clean static web experience.
+
+Built with vanilla HTML, CSS, and JavaScript, this project focuses on fast loading, simple deployment, responsive layout, and clear presentation without relying on a frontend framework.
+
+## Purpose
+
+This portfolio is designed to give recruiters, clients, and collaborators a quick overview of who I am, what I build, and how to contact me. It acts as both a personal landing page and a practical example of my ability to structure, style, and ship a polished static website.
+
+## Features
+
+- Responsive single-page layout for desktop, tablet, and mobile screens.
+- Hero section with profile image, introduction, CV download, and contact actions.
+- Skills and services sections to summarize technical capabilities.
+- Featured projects section for highlighting selected work.
+- Smooth scrolling navigation and mobile hamburger menu.
+- Lightweight static structure that can be deployed on any static hosting platform.
+
+## Tech stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Font Awesome
 
 ## Project structure
 
@@ -12,10 +35,21 @@ A single-page portfolio site for Marius Cretu showcasing skills, featured projec
 
 ## Running locally
 
-This is a static site—no build step required.
+This is a static site with no build step required.
 
-1) Clone or copy the repository files.  
-2) Open `index.html` in your browser, or serve the folder with any static server (examples: `python -m http.server 8000` or `npx serve .`).
+1. Clone or copy the repository files.
+2. Open `index.html` directly in your browser.
+3. Optionally, serve the folder with a static server:
+
+```bash
+python -m http.server 8000
+```
+
+or:
+
+```bash
+npx serve .
+```
 
 ## Customization
 
@@ -32,3 +66,11 @@ This is a static site—no build step required.
 ## Deployment
 
 Any static host works (GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.). Deploy the root folder and ensure all assets stay in the same relative paths.
+
+## Author
+
+**Marius Cretu**
+
+- Portfolio: https://cremarnic.github.io/Portfolio/
+- LinkedIn: https://www.linkedin.com/in/marius14cretu
+- GitHub: https://github.com/CreMarNic
