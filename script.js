@@ -4,14 +4,16 @@ const navMenu = document.querySelector('.nav-menu');
 
 if (hamburger && navMenu) {
     hamburger.addEventListener('click', () => {
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
+        const isOpen = hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active', isOpen);
+        hamburger.setAttribute('aria-expanded', String(isOpen));
     });
 
     // Close mobile menu when clicking on a link
     document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
         hamburger.classList.remove('active');
         navMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
     }));
 }
 
@@ -34,10 +36,10 @@ window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (navbar) {
         if (window.scrollY > 100) {
-            navbar.style.background = '#1a1a1a';
-            navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.3)';
+            navbar.style.background = 'rgba(16, 18, 20, 0.96)';
+            navbar.style.boxShadow = '0 12px 30px rgba(0, 0, 0, 0.28)';
         } else {
-            navbar.style.background = '#1a1a1a';
+            navbar.style.background = 'rgba(16, 18, 20, 0.92)';
             navbar.style.boxShadow = 'none';
         }
     }

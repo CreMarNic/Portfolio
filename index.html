@@ -3,298 +3,381 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marius Cretu | Digital Designer</title>
+    <meta name="description" content="Marius Cretu - Java Full Stack Developer portfolio featuring Spring Boot, React, REST APIs, PostgreSQL, authentication, and deployed full stack projects.">
+    <title>Marius Cretu | Java Full Stack Developer</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="nav-logo">
-                <span>MARIUS CRETU</span>
-            </div>
+            <a href="#home" class="nav-logo">Marius Cretu</a>
             <div class="nav-menu">
-                <a href="#home" class="nav-link">Home</a>
                 <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
-                <a href="#services" class="nav-link">Services</a>
+                <a href="#services" class="nav-link">Focus</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
-            <div class="hamburger">
+            <button class="hamburger" aria-label="Open navigation menu" aria-expanded="false" type="button">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
-            </div>
+            </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-greeting">
-                    <span>Hello, I am a</span>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="eyebrow">Java Full Stack Developer</p>
+                    <h1>
+                        <span class="hero-name">Marius Cretu</span>
+                        <span class="hero-headline">builds secure, practical web applications with Java, Spring Boot and React.</span>
+                    </h1>
+                    <p class="hero-description">
+                        I develop full stack applications from database design and REST APIs to responsive frontends,
+                        authentication flows, deployment, and documentation. My portfolio highlights production-minded
+                        projects with real user workflows, clean code, and maintainable architecture.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            View projects
+                        </a>
+                        <a href="CV - Marius Cretu.pdf" class="btn btn-secondary" target="_blank" rel="noopener">
+                            Open CV
+                        </a>
+                    </div>
+                    <div class="hero-links" aria-label="Professional links">
+                        <a href="https://github.com/CreMarNic" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/marius14cretu" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="mailto:cremarnic@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                            Email
+                        </a>
+                    </div>
                 </div>
-                <h2 class="hero-title">Java Full-Stack Developer</h2>
-                <p class="hero-description"> 
-                    I build websites and applications with clean code, modern design, 
-                    and thoughtful user interactions that engage and delight users.
+
+                <div class="hero-panel" aria-label="Developer profile summary">
+                    <div class="photo-frame">
+                        <img src="marius-photo.jpg" alt="Marius Cretu" class="profile-image">
+                    </div>
+                    <div class="availability-card">
+                        <div>
+                            <strong>Open to Java full stack roles</strong>
+                            <span>Konstanz, Germany</span>
+                        </div>
+                    </div>
+                    <div class="hero-metrics">
+                        <div>
+                            <strong>Spring Boot</strong>
+                            <span>REST APIs, JWT, Swagger</span>
+                        </div>
+                        <div>
+                            <strong>React</strong>
+                            <span>Responsive frontend apps</span>
+                        </div>
+                        <div>
+                            <strong>PostgreSQL</strong>
+                            <span>Relational data modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <p class="section-label">About</p>
+                <h2>Developer focused on reliable full stack delivery.</h2>
+                <p>
+                    I am a Java full stack developer who enjoys building complete applications with a clear backend,
+                    usable frontend, and deployment-ready structure. My work combines Spring Boot, React, relational
+                    databases, authentication, API documentation, and responsive interface design.
                 </p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get in touch</a>
-                    <a href="CV - Marius Cretu.pdf" class="btn btn-secondary" target="_blank">Open CV</a>
-                </div>
+                <p>
+                    Recruiters will find projects here that show ownership across the stack: secure login, role-based
+                    permissions, CRUD workflows, search and filtering, database persistence, hosted demos, and GitHub
+                    repositories that show how each application is put together.
+                </p>
             </div>
-            <div class="hero-image">
-                <div class="hero-photo">
-                    <img src="marius-photo.jpg" alt="Marius Cretu" class="profile-image">
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About <span style="color: #e7815c;">Marius</span></h2>
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">Skills</p>
+                        <h2>Technologies I use to build full stack applications.</h2>
+                    </div>
                     <p>
-                        A passionate developer specialized in creating modern web applications that are not only visually appealing 
-                        but also performant and user-friendly. With experience working across the full stack, 
-                        I bring ideas to life from concept to deployment.
+                        My strongest fit is Java backend development with Spring Boot, connected to modern React
+                        frontends and SQL-backed application data.
                     </p>
-                    <p>
-                        <strong>Here are a few technologies I've been working with recently:</strong>
-                    </p>
-                    <ul class="tech-list">
-                        <li>TypeScript & React</li>
-                        <li>Java & Spring Boot</li>
-                        <li>PostgreSQL & MongoDB</li>
-                        <li>Intellij IDEA</li>
-                    </ul>
+                </div>
+
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend</h3>
+                        <p>Java, Spring Boot, REST APIs, JWT authentication, role-based access, validation, Swagger documentation.</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Data</h3>
+                        <p>PostgreSQL, MongoDB, relational modeling, repositories, persistence, task and content data workflows.</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Frontend</h3>
+                        <p>React, JavaScript, TypeScript fundamentals, Vite, Axios, responsive layouts, component-based UI.</p>
+                    </article>
+                    <article class="skill-card">
+                        <i class="fas fa-cloud-arrow-up"></i>
+                        <h3>Delivery</h3>
+                        <p>Git, GitHub, Railway, Render, static deployment, environment configuration, production links.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-label">Projects</p>
+                        <h2>Full stack work with live demos and source code.</h2>
+                    </div>
+                    <p>
+                        These projects show backend APIs, frontend implementation, authentication, deployment,
+                        and practical product workflows.
+                    </p>
+                </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2><span style="color: #ffffff;">Featured</span> Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="About Music in Movies Blog" style="width:100%; height:100%; object-fit:cover;" />
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://blog-about-music-in-movies-production.up.railway.app" class="project-link" target="_blank">
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1000&q=80" alt="Music blog application preview">
+                            <div class="project-overlay">
+                                <a href="https://blog-about-music-in-movies-production.up.railway.app" target="_blank" rel="noopener">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live
                                 </a>
-                                <a href="https://github.com/CreMarNic/Blog---About-Music-in-Movies" class="project-link" target="_blank">
+                                <a href="https://github.com/CreMarNic/Blog---About-Music-in-Movies" target="_blank" rel="noopener">
                                     <i class="fab fa-github"></i>
-                                    GitHub
+                                    Code
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>Full stack CMS</span>
+                                <span class="status-badge">Completed</span>
+                            </div>
                             <h3>About Music in Movies Blog</h3>
-                            <span class="project-status">
-                                <span class="status-badge completed">Completed</span>
-                            </span>
+                            <p>
+                                Blog platform with Spring Boot REST API, React frontend, JWT authentication,
+                                role-based access for Admin, Author, and User, rich text editing, categories,
+                                tags, comments, and video embedding.
+                            </p>
+                            <div class="project-proof">
+                                <span><i class="fas fa-shield-halved"></i> Auth and roles</span>
+                                <span><i class="fas fa-pen-to-square"></i> CMS workflow</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>React</span>
+                                <span>PostgreSQL</span>
+                                <span>JWT</span>
+                                <span>REST API</span>
+                            </div>
                         </div>
-                        <p>A full-stack blog platform with CMS featuring Spring Boot REST API, React frontend, JWT authentication, role-based access control (Admin/Author/User), rich text editor with video embedding support, categories, tags, and comments system.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">JWT</span>
-                            <span class="tech-tag">REST API</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Task Manager Frontend" style="width:100%; height:100%; object-fit:cover;" />
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://task-manager-frontend-production-df84.up.railway.app" class="project-link" target="_blank">
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1000&q=80" alt="Task management API preview">
+                            <div class="project-overlay">
+                                <a href="https://task-management-api-production-96e5.up.railway.app/swagger-ui.html" target="_blank" rel="noopener">
                                     <i class="fas fa-external-link-alt"></i>
-                                    Live Demo
+                                    API docs
                                 </a>
-                                <a href="https://github.com/CreMarNic/task-manager-frontend" class="project-link" target="_blank">
+                                <a href="https://github.com/CreMarNic/task-management-api" target="_blank" rel="noopener">
                                     <i class="fab fa-github"></i>
-                                    GitHub
+                                    Code
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>Task Manager Frontend</h3>
-                            <span class="project-status">
-                                <span class="status-badge completed">Completed</span>
-                            </span>
-                        </div>
-                        <p>A modern React frontend application for task management with JWT authentication, full CRUD operations, real-time filtering, search functionality, and a beautiful dark-themed responsive UI.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">Vite</span>
-                            <span class="tech-tag">Axios</span>
-                            <span class="tech-tag">CSS3</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="FitTimer Mobile App" style="width:100%; height:100%; object-fit:cover;" />
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://fittimer.onrender.com/" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live App
-                                </a>
-                                <a href="https://github.com/CreMarNic/fittimer" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>Backend API</span>
+                                <span class="status-badge">Completed</span>
                             </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
-                            <h3>FitTimer Mobile App</h3>
-                            <span class="project-status">
-                                <span class="status-badge completed">Completed</span>
-                            </span>
-                        </div>
-                        <p>A minimalist fitness timer app with interval training, customizable work/rest periods, and clean user interface for effective workout sessions.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">HTML5</span>
-                            <span class="tech-tag">CSS3</span>
-                            <span class="tech-tag">Spring Boot</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Task Management API" style="width:100%; height:100%; object-fit:cover;" />
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://task-management-api-production-96e5.up.railway.app/swagger-ui.html" class="project-link" target="_blank">
-                                    <i class="fas fa-external-link-alt"></i>
-                                    Live API
-                                </a>
-                                <a href="https://github.com/CreMarNic/task-management-api" class="project-link" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                    GitHub
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-header">
                             <h3>Task Management REST API</h3>
-                            <span class="project-status">
-                                <span class="status-badge completed">Completed</span>
-                            </span>
+                            <p>
+                                Spring Boot API for task management with JWT authentication, CRUD endpoints,
+                                task filtering, search, PostgreSQL persistence, and Swagger UI documentation
+                                for quick technical review.
+                            </p>
+                            <div class="project-proof">
+                                <span><i class="fas fa-key"></i> JWT security</span>
+                                <span><i class="fas fa-book"></i> Swagger docs</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>PostgreSQL</span>
+                                <span>JWT</span>
+                                <span>Swagger</span>
+                            </div>
                         </div>
-                        <p>A comprehensive RESTful API for task management built with Spring Boot. Features JWT authentication, full CRUD operations, task filtering, search functionality, and interactive Swagger UI documentation.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">Java</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">JWT</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">Swagger</span>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1000&q=80" alt="Task manager frontend preview">
+                            <div class="project-overlay">
+                                <a href="https://task-manager-frontend-production-df84.up.railway.app" target="_blank" rel="noopener">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live
+                                </a>
+                                <a href="https://github.com/CreMarNic/task-manager-frontend" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>React frontend</span>
+                                <span class="status-badge">Completed</span>
+                            </div>
+                            <h3>Task Manager Frontend</h3>
+                            <p>
+                                React application connected to a secured backend API, with authenticated user
+                                flows, task creation and editing, filtering, search, Axios integration, and
+                                responsive interface behavior.
+                            </p>
+                            <div class="project-proof">
+                                <span><i class="fas fa-layer-group"></i> Component UI</span>
+                                <span><i class="fas fa-filter"></i> Search and filters</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>Vite</span>
+                                <span>Axios</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1000&q=80" alt="Fitness timer application preview">
+                            <div class="project-overlay">
+                                <a href="https://fittimer.onrender.com/" target="_blank" rel="noopener">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live
+                                </a>
+                                <a href="https://github.com/CreMarNic/fittimer" target="_blank" rel="noopener">
+                                    <i class="fab fa-github"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>Product workflow</span>
+                                <span class="status-badge">Completed</span>
+                            </div>
+                            <h3>FitTimer</h3>
+                            <p>
+                                Fitness timer app focused on a simple, usable workout flow with interval timing,
+                                configurable work and rest periods, mobile-friendly layout, and a lightweight
+                                deployed experience.
+                            </p>
+                            <div class="project-proof">
+                                <span><i class="fas fa-mobile-screen-button"></i> Mobile first</span>
+                                <span><i class="fas fa-stopwatch"></i> Timer logic</span>
+                            </div>
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Spring Boot</span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <div class="container">
-            <h2>What can I <span style="color: #e7815c;">do for you</span></h2>
-            <p class="services-description">
-                I believe that great software should be intuitive and user-friendly for everyone. 
-                It's my job to ensure that your users can interact with your application in a way 
-                that makes sense for them, whether they're on a desktop or a mobile device.
-            </p>
-            <div class="services-grid">
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <p>Creating responsive websites and web applications using modern technologies and best practices.</p>
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-heading centered">
+                    <p class="section-label">Focus</p>
+                    <h2>Where I can contribute on a Java full stack team.</h2>
                 </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Mobile Development</h3>
-                    <p>Developing cross-platform mobile applications that provide seamless user experiences.</p>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon">
-                        <i class="fas fa-palette"></i>
-                    </div>
-                    <h3>UI/UX Design</h3>
-                    <p>Designing intuitive user interfaces and experiences that engage and delight users.</p>
+                <div class="services-grid">
+                    <article class="service-item">
+                        <i class="fas fa-gears"></i>
+                        <h3>Spring Boot application development</h3>
+                        <p>Building REST endpoints, service layers, persistence, validation, authentication, and documentation.</p>
+                    </article>
+                    <article class="service-item">
+                        <i class="fas fa-window-restore"></i>
+                        <h3>React frontend implementation</h3>
+                        <p>Creating responsive user interfaces that connect cleanly to APIs and support real application workflows.</p>
+                    </article>
+                    <article class="service-item">
+                        <i class="fas fa-diagram-project"></i>
+                        <h3>End-to-end feature ownership</h3>
+                        <p>Taking features from data model and API contract to frontend integration, deployment, and reviewable code.</p>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2><span style="color: #ffffff;">Let's build your</span> project together</h2>
-            <p class="contact-description">
-                Ready to bring your ideas to life? Let's get in touch!
-            </p>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>cremarnic@gmail.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+49 157 54497440</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Konstanz, Germany</span>
-                    </div>
+        <section id="contact" class="section contact">
+            <div class="container narrow">
+                <p class="section-label">Contact</p>
+                <h2>Interested in a Java full stack developer?</h2>
+                <br>
+
+                <p>
+                    I am available for recruiter conversations, junior to mid-level Java full stack opportunities,
+                    and project-based collaboration.
+                </p>
+                <div class="contact-list">
+                    <a href="mailto:cremarnic@gmail.com"><i class="fas fa-envelope"></i> cremarnic@gmail.com</a>
+                    <a href="tel:+4915754497440"><i class="fas fa-phone"></i> +49 157 54497440</a>
+                    <span><i class="fas fa-location-dot"></i> Konstanz, Germany</span>
+                </div>
+                <div class="contact-social-links" aria-label="Professional links">
+                    <a href="https://github.com/CreMarNic" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/marius14cretu" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 Marius Cretu | All rights reserved     
-            </p>
-            <br>
-            <div class="social-links">
-                <a href="https://github.com/CreMarNic" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/marius14cretu" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
+        <div class="container footer-content">
+            <p>&copy; 2026 Marius Cretu. Java Full Stack Developer.</p>
         </div>
     </footer>
 

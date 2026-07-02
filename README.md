@@ -1,19 +1,26 @@
-# Marius Cretu — Portfolio
+# Marius Cretu - Java Full Stack Developer Portfolio
 
-A responsive single-page portfolio website for Marius Cretu. The site presents professional background, technical skills, featured projects, services, contact details, and a downloadable CV in a clean static web experience.
+A responsive single-page portfolio website for Marius Cretu, focused on Java full stack developer opportunities. The site presents professional background, technical skills, selected projects, contact details, and a downloadable CV in a clean static web experience.
 
-Built with vanilla HTML, CSS, and JavaScript, this project focuses on fast loading, simple deployment, responsive layout, and clear presentation without relying on a frontend framework.
+Built with vanilla HTML, CSS, and JavaScript, this project focuses on fast loading, simple deployment, responsive layout, and clear recruiter-facing presentation without relying on a frontend framework. The design uses a dark professional layout with orange call-to-action styling, centered section headers, responsive project cards, and direct links to GitHub and LinkedIn.
 
 ## Purpose
 
-This portfolio is designed to give recruiters, clients, and collaborators a quick overview of who I am, what I build, and how to contact me. It acts as both a personal landing page and a practical example of my ability to structure, style, and ship a polished static website.
+This portfolio is designed to give recruiters, clients, and collaborators a quick overview of my Java full stack profile. It highlights Spring Boot, React, REST APIs, authentication, databases, deployment, and project ownership across the stack through live projects and source-code links.
+
+## Live site
+
+https://cremarnic.github.io/Portfolio/
 
 ## Features
 
 - Responsive single-page layout for desktop, tablet, and mobile screens.
-- Hero section with profile image, introduction, CV download, and contact actions.
-- Skills and services sections to summarize technical capabilities.
-- Featured projects section for highlighting selected work.
+- Hero section with profile image, Java full stack positioning, CV download, and professional links.
+- About section describing full stack delivery and project ownership.
+- Skills section covering backend, data, frontend, and delivery.
+- Projects section with live demos, GitHub links, project status, proof points, and technologies used.
+- Focus section describing where I can contribute on a Java full stack team.
+- Contact section with email, phone, location, GitHub, and LinkedIn.
 - Smooth scrolling navigation and mobile hamburger menu.
 - Lightweight static structure that can be deployed on any static hosting platform.
 
@@ -27,11 +34,11 @@ This portfolio is designed to give recruiters, clients, and collaborators a quic
 
 ## Project structure
 
-- `index.html` — main page with all sections and content.
-- `styles.css` — styling for layout, typography, responsiveness, and hover states.
-- `script.js` — navigation hamburger toggle, smooth scrolling, and navbar styling on scroll.
-- `marius-photo.jpg` — profile image used in the hero section.
-- `CV_MariusCretu.pdf` — downloadable CV linked from the hero buttons.
+- `index.html` - main page with all sections and content.
+- `styles.css` - styling for layout, typography, responsiveness, and hover states.
+- `script.js` - navigation hamburger toggle, smooth scrolling, and navbar styling on scroll.
+- `marius-photo.jpg` - profile image used in the hero section.
+- `CV - Marius Cretu.pdf` - downloadable CV linked from the hero buttons.
 
 ## Running locally
 
@@ -39,23 +46,19 @@ This is a static site with no build step required.
 
 1. Clone or copy the repository files.
 2. Open `index.html` directly in your browser.
-3. Optionally, serve the folder with a static server:
+3. For a local preview that behaves more like GitHub Pages, serve the folder with a static server:
 
 ```bash
-python -m http.server 8000
+npx serve -l 8000 .
 ```
 
-or:
-
-```bash
-npx serve .
-```
+Then open `http://localhost:8000`.
 
 ## Customization
 
-- **Content:** Update text and links directly in `index.html` (hero intro, projects, services, contact details).
+- **Content:** Update text and links directly in `index.html` (hero intro, about, skills, projects, focus, contact details).
 - **Images:** Replace `marius-photo.jpg` and project thumbnails as needed; adjust image paths in the markup.
-- **Styling:** Tweak colors, spacing, and layouts in `styles.css`. Media queries at the bottom handle mobile navigation and responsive grids.
+- **Styling:** Tweak colors, spacing, gradients, cards, and layouts in `styles.css`. Media queries at the bottom handle mobile navigation and responsive grids.
 - **Behavior:** Modify `script.js` if you want different scroll behavior or menu animations.
 
 ## External dependencies
