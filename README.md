@@ -77,3 +77,7 @@ Any static host works (GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.). D
 - Portfolio: https://cremarnic.github.io/Portfolio/
 - LinkedIn: https://www.linkedin.com/in/marius14cretu
 - GitHub: https://github.com/CreMarNic
+
+## Project image credits
+
+- Ecommerce Shop: [Shopping bags by Iuliia Pilipeichenko on Unsplash](https://unsplash.com/photos/hand-holding-colorful-shopping-bags-against-a-light-wall-6ZgtlGd4RQE).
