@@ -497,7 +497,7 @@ a {
 
 .project-image {
     position: relative;
-    height: 230px;
+    height: 440px;
     overflow: hidden;
 }
 
@@ -866,7 +866,7 @@ a {
     }
 
     .project-image {
-        height: 205px;
+        height: clamp(300px, 100vw, 440px);
     }
 
     .project-topline {
