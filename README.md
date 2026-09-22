@@ -78,6 +78,9 @@ Any static host works (GitHub Pages, Netlify, Vercel, Cloudflare Pages, etc.). D
 - LinkedIn: https://www.linkedin.com/in/marius14cretu
 - GitHub: https://github.com/CreMarNic
 
-## Project image credits
+## Project images
 
-- Ecommerce Shop: [Shopping bags by Iuliia Pilipeichenko on Unsplash](https://unsplash.com/photos/hand-holding-colorful-shopping-bags-against-a-light-wall-6ZgtlGd4RQE).
+- `images/music-movies-blog.png` - supplied screenshot of About Music in Movies Blog.
+- `images/ecommerce-shop.png` - supplied screenshot of Ecommerce Shop.
+- `images/fittimer.png` - supplied screenshot of FitTimer.
+- `images/task-manager.svg` - Task Manager board illustration.
