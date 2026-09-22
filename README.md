@@ -8,6 +8,10 @@ The portfolio provides recruiters and hiring managers with quick access to my pr
 
 [View Portfolio](https://cremarnic.github.io/Portfolio/)
 
+## Screenshot
+
+![Marius Cretu portfolio homepage with developer introduction and profile photo](images/portfolio.png)
+
 ## Features
 
 - Responsive single-page layout for desktop, tablet, and mobile screens.
